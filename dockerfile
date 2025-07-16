@@ -18,4 +18,4 @@ EXPOSE 3000
 ENV FLASK_APP=app.py
 
 # run the flask app
-CMD ["flask", "run", "--host-0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0"]
